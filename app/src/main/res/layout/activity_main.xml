@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Foodbank"
+        android:drawablePadding="5dp"
+        android:gravity="center_horizontal" />
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="3dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/black"
+    android:padding="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:text="Login"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:hint="Username"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:id="@+id/username"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_baseline_alternate_email_24"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:hint="Password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:inputType="textPassword"
+            android:drawablePadding="5dp"
+            android:id="@+id/password"
+            android:drawableLeft="@drawable/ic_baseline_visibility_24"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:id="@+id/signin"
+        android:layout_gravity="right"
+        android:gravity="right"
+        tools:ignore="RtlCompat" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="285dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:id="@+id/reg"
+            android:layout_gravity="right"
+            android:gravity="right"
+            tools:ignore="RtlCompat" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

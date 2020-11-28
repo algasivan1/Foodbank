@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foodbank-dev-143310-authRole",
+      "UnauthRoleArn": "arn:aws:iam::567129488446:role/amplify-foodbank-dev-143310-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::567129488446:role/amplify-foodbank-dev-143310-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-foodbank-dev-143310-deployment",
+      "UnauthRoleName": "amplify-foodbank-dev-143310-unauthRole",
+      "StackName": "amplify-foodbank-dev-143310",
+      "StackId": "arn:aws:cloudformation:us-east-1:567129488446:stack/amplify-foodbank-dev-143310/63fff6f0-30e7-11eb-af3f-120fd1de9a83",
+      "AmplifyAppId": "d31be9cf6ewqm"
+    },
+    "categories": {
+      "auth": {
+        "foodbankcc47427f": {}
+      }
+    }
+  }
+}
